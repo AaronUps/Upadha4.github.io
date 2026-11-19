@@ -63,7 +63,7 @@ window.SITE_CONFIG = {
     heroVideoPoster: "",
     heroVideoAlt: "Autoplay preview video (academic project)",
     videoCaption:
-      "Autoplay preview (≈20 seconds): raw video → Traffic Simulation → Results"
+      "Autoplay preview (≈20 seconds): Raw video → Traffic Simulation → Results"
   },
 
   caseStudy: {
@@ -71,10 +71,10 @@ window.SITE_CONFIG = {
 
     backgroundTitle: "Background",
     backgroundBullets: [
-			"Vehicles flowrate is rapidly increasing.",
-			"Introduction of FSD brings safety questions.",
+			"The flowrate of vehicles are rapidly increasing.",
+			"Intro to CAV that brings up safety questions.",
 			"The vehicles dominates research and infrastructure receives little attention.",
-			"Desperate need to predict interactions of two vehicle types in todays infrastrucutre"
+			"Predict interactions of how HDV and CAV operate in todays infrastrucutre"
     ],
 
     problemTitle: "Problem Statement",
