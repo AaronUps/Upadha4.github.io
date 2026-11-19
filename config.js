@@ -13,8 +13,8 @@ window.SITE_CONFIG = {
     tagline: "Course Project: Smart Cities and Communities",
 
     studentName: "Aaron Upadhyay",
-    program: "Bachelor of Technology - Automation",
-    university: "McMaster University, Hamilton, Canada",
+    program: "Bachelor of Technology - Smart Systems",
+    university: "McMaster University, Canada",
     email: "Upadha4@mcmaster.ca"
   },
 
@@ -28,7 +28,7 @@ window.SITE_CONFIG = {
   },
 
   theme: {
-    heroBg: "#111111",
+    heroBg: "#232A33",
     heroText: "#ffffff",
     pageBg: "#f8fafc",
     accent: "#7c3aed"
@@ -57,13 +57,13 @@ window.SITE_CONFIG = {
   },
 
   intro: {
-    projectTitleLabel: "Project Title",
-    projectTitle: "Development of Digital Twin of a Railway Corridor Using Unity Game Engine and SUMO Traffic Simulation",
+    projectTitleLabel: "CAV vs HDV Simulation",
+    projectTitle: "Comparison of Human Driven and Computer Driven Vehicle Simulations",
     heroVideo: "assets/video/video.mp4",
     heroVideoPoster: "",
     heroVideoAlt: "Autoplay preview video (academic project)",
     videoCaption:
-      "Autoplay preview (≈20 seconds): raw video → Traffic Simulation → Blender → Unity → Results"
+      "Autoplay preview (≈20 seconds): raw video → Traffic Simulation → Results"
   },
 
   caseStudy: {
@@ -71,26 +71,26 @@ window.SITE_CONFIG = {
 
     backgroundTitle: "Background",
     backgroundBullets: [
-			"Global freight rail is growing and remains strategically important.",
-			"Rail carries about 18% of EU inland freight, 36% in the U.S., and 27% in India.",
-			"Road dominates many freight systems, so rail often receives less attention.",
-			"In Canada, rail accounted for 10.5% of international merchandise trade value in 2024."
+			"Vehicles flowrate is rapidly increasing.",
+			"Introduction of FSD brings safety questions.",
+			"The vehicles dominates research and infrastructure receives little attention.",
+			"Desperate need to predict interactions of two vehicle types in todays infrastrucutre"
     ],
 
     problemTitle: "Problem Statement",
     problemBullets: [
-			"Railway operations are hard to assess.",
-			"3D asset creation is time-consuming.",
-			"2D models lack immersion.",
-			"Results are difficult to communicate."
+			"Determine Highway travel and assess.",
+			"Create 3D asset creation.",
+			"Utilize 2D models immersion.",
+			"Review Results."
     ],
 
-    objectivesTitle: "Project Objectives",
+    objectivesTitle: "Objective of Project",
     objectivesBullets: [
-			"Simulate train scheduling, signaling, and capacity in SUMO.",
-			"Create 3D digital assets using generative AI and blender.",
-			"Create 3D rail environment and VR video in Unity.",
-			"Present results in different styles through KPIs, figures, and a showcase website."
+			"View the simulation for vehicle speed, signaling, and capacity in SUMO.",
+			"Create vehicle multiple models.",
+			"Develop a network roadway using SUMO.",
+			"Find the results in different styles through figures, and website."
     ]
   },
 
@@ -98,18 +98,18 @@ window.SITE_CONFIG = {
     title: "Methodology",
     steps: [
       {
-        title: "Step 1: Train Scheduling and Signaling (SUMO Simulation)",
-				text: "Build the rail network and test routing, signaling, and timetables.",
+        title: "Step 1: SUMO Simulation and Movement",
+				text: "Build the road network.",
         image: "assets/img/image2.jpg"
       },
       {
-				title: "Step 2: Digital Twin Assets Developement (Blender)",
-				text: "Create a 3D railway assets using generative AI and blender.",
+				title: "Step 2: Model Developement (SUMO)",
+				text: "Create a vehicle model for HDV and CAV.",
         image: "assets/img/image3.jpg"
       },
       {
-				title: "Step 3: Immersive VR Visualization (Unity)",
-				text: "Create a 3D railway scene and produce a VR 360-degree video.",
+				title: "Step 3: City Intervention",
+				text: "Add an extra turn lane on northbound traffic",
         image: "assets/img/image4.jpg"
       },
       {
@@ -121,39 +121,38 @@ window.SITE_CONFIG = {
   },
 
   implementation: {
-    title: "Methodology Steps (Demo Modules)",
+    title: "Steps to Method",
     modules: [
       {
-        title: "Module 1: Train Scheduling & Signaling (SUMO)",
+        title: "Module 1:Network Roadhway Path - SUMO",
         bullets: [
-				  { text: "Build a simulated rail network in SUMO with train routing and maximum operating speed." },
-          { text: "Design fixed-block rail signals and define station stops along the corridor." },
-          { text: "Configure timetable, scheduled departures, running time, dwell time, and headway." }
+				  { text: "Build a simulated road network in SUMO with accurate road network design" },
+          { text: "Design fixed turn signals and stops along the road." },
         ],
         image: "assets/img/image2.jpg"
       },
       {
-        title: "Module 2: Digital Twin Assets Developement (Blender)",
+        title: "Module 2: SUMO Vehicle Model",
         bullets: [
-          { text: "Generative AI: use Meshy.ai tool to develop different assets." },
-          { text: "From generative AI to belnder." },
-          { text: "Preprocessing assets in Blender ." }
+          { text: "Create HDV and CAV models." },
+          { text: "Implement individual simulations with both models" },
+          { text: "Compare the results of the two simulations ." }
         ],
         image: "assets/img/image3.jpg"
       },
       {
-        title: "Module 3: Immersive VR Visualization (Unity)",
+        title: "Module 3: City Interventions",
         bullets: [
-				  { text: "Develop a 3D railway environment including stations, buildings, trees, and rolling stock." },
-          { text: "Configure visualization fundamentals: lighting, camera position, time of day, and scene composition." },
-          { text: "Produce a VR 360-degree video output for immersive presentation and portfolio use." }
+				  { text: "Added an extra lane for northbound traffic" },
+          { text: "Ran the HDV simulation with updated road network" },
+          { text: "Compare speed and flow density with intervention to measure infrastructure change." }
         ],
         image: "assets/img/image4.jpg"
       },
       {
-        title: "Module 4: Results & Communication",
+        title: "Module 4: Final Results & Thoughts",
         bullets: [
-          { text: "Dashboard or plot set: KPI cards, bar charts, and/or time series." },
+          { text: "Dashboard: KPI cards bar charts and/or time series." },
           { text: "Scenario story: what changed, what improved, and what tradeoffs appeared." },
           { text: "Limitations + next steps: what data would strengthen confidence." }
         ],
@@ -163,30 +162,29 @@ window.SITE_CONFIG = {
   },
 
 	results: {
-			title: "Results & Potential Improvements",
+			title: "Results & Potential Changes",
 			subtitle:
-				"Train schedule simulation outputs across two scenarios showing arrivals, departures, and dwell time across four stations. Results are for educational purposes only.",
+				"Vehicle simulation outputs across two scenarios showing speed, flow rate and traffic density. Results are for educational purposes only.",
 
 			charts: {
 				left: {
-					title: "Scenario 1 — Train Schedule: Arrivals, Departures & Dwell Time",
+					title: "Scenario 1 — HDV",
 					src: "assets/img/image6.jpg",
-					alt: "Scenario 1 train schedule chart showing arrivals and departures across S1 to S4"
+					alt: "Scenario 1: HDV flowrate"
 				},
 				right: {
-					title: "Scenario 2 — Train Schedule: Arrivals, Departures & Dwell Time",
+					title: "Scenario 2 — CAV",
 					src: "assets/img/image7.jpg",
-					alt: "Scenario 2 train schedule chart showing arrivals and departures across S1 to S4"
+					alt: "Scenario 2: CAV flowrate"
 				}
 			},
 
 			discussionTitle: "Discussion",
 			discussionBullets: [
-				"Scenario 1 provides a stable baseline timetable with consistent station dwell and smooth train progression.",
-				"Scenario 2 applies a delay at S2, which then propagates to downstream stations.",
-				"Delay effects grow across frequency levels, with major increases in arrival and departure times at S3 and S4.",
-				"S1 is only slightly affected, while downstream stations absorb most of the disruption.",
-				"This demonstrates the importance of recovery time, dwell management, and operational control in rail scheduling."
+				"Scenario 1: Demonstrate how traffic is affects the city",
+				"Scenario 2: Apply a CAV model to show how autnomous vehicles would behave in city enviroment",
+				"CAV perform marginally better than HDV",
+				"How Intervention affects to traffic density"
 			]
 		},
 
@@ -196,7 +194,9 @@ window.SITE_CONFIG = {
       "This section clarifies academic context, roles, tools, and sources. Clear attribution improves credibility and shows ethical data handling.",
 
     members: [
-      { name: "Your Name", role: "Rail Scheduling & Signaling + Digital Twin I, Immersive VR Visualization + Results & Communication" }
+      { name: "Mahir Nasar", role: "Roadway Network Engineer" },
+		{ name: "Aaron Upadhayay", role: "Report Writer" },
+		 { name: "Larry Tcherner", role: "Sumo Analyst" }
     ],
 
     acknowledgments: [
@@ -207,6 +207,6 @@ window.SITE_CONFIG = {
     ],
 
     repoLabel: "Project Repository",
-    repoUrl: "https://github.com/USERNAME/REPO"
+    repoUrl: "https://github.com/AaronUps/Upadha4.github.io"
   }
 };
